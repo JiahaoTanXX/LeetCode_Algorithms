@@ -13,3 +13,7 @@ Tip：因为sort会直接改变字符串的值，所以我们开一个新的字�
 sort的用法：sort(key.begin(), key.end());
 最后在应用autol类型来将分类后的字母异位词分组插入ans
 eg：for(auto it : hashmap) 
+
+## 128.最长连续序列
+key point：为了减少重复的查找，我们需要判断某数字是否是序列的开始；当找到序列的开头数字时即可用while进行查找
+我们只需要知道一个数字是否存在，所以使用unordered_set

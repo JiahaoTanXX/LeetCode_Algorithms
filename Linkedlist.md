@@ -8,3 +8,7 @@ Key point:消除两个链表长度不同造成的距离差
 pA = pA == nullptr ? headB : pA->next;
 Summary:
 双指针法可以广泛用于两个链表长度不同，但是需要让两个指针对齐的情况；
+
+## 206.反转链表
+key point：不能丢失链表后面的内容
+使用prev、curr、next三个辅助节点来完成链表翻转
